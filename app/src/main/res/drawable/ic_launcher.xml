@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- TinyQR dark background -->
+    <path
+        android:fillColor="#18202A"
+        android:pathData="M0,0H108V108H0Z" />
+
+    <!-- Scanner frame corners -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M20,20H43V25H25V43H20Z
+            M65,20H88V43H83V25H65Z
+            M20,65H25V83H43V88H20Z
+            M83,65H88V88H65V83H83Z" />
+
+    <!-- Minimal QR modules -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M34,34H48V48H34Z
+            M60,34H74V48H60Z
+            M34,60H48V74H34Z
+
+            M56,56H62V62H56Z
+            M66,56H74V62H66Z
+            M56,66H62V74H56Z
+            M66,66H72V72H66Z
+            M76,66H80V74H76Z
+            M66,76H80V80H66Z" />
+
+    <!-- QR finder centers -->
+    <path
+        android:fillColor="#18202A"
+        android:pathData="
+            M38,38H44V44H38Z
+            M64,38H70V44H64Z
+            M38,64H44V70H38Z" />
+
+    <!-- Scan line -->
+    <path
+        android:fillColor="#16C43B"
+        android:pathData="M29,53H79V57H29Z" />
+
+</vector>

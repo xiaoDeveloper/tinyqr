@@ -1,0 +1,46 @@
+# Android Studio and local machine state
+.idea/
+.vscode/
+*.iml
+local.properties
+.DS_Store
+Thumbs.db
+
+# Gradle and generated build output
+.gradle/
+**/build/
+build/
+.externalNativeBuild/
+.cxx/
+**/.cxx/
+captures/
+benchmark-output/
+experimental/raw-build/out/
+
+# Packaged binaries and temporary output
+*.apk
+*.aab
+*.dex
+*.so
+*.o
+*.obj
+*.tmp
+*.temp
+*.log
+
+# Credentials and local secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+sign/
+
+# Private/deployment material excluded from this public copy
+/hosting/
+/doc/
+/aaaaaaaaa/

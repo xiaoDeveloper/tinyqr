@@ -1,15 +1,6 @@
 # Changelog
 
-
-## 1.0.1_beta
-
-- Added support for QR codes with rounded and stylized finder patterns.
-- Improved compatibility with branded QR codes.
-- Added fallback finder geometry reconstruction while preserving the normal fast scan path.
-- Added regression coverage for rotated, blurred, and low-contrast stylized QR codes.
-
-
-## v1.0.0 — Initial Release
+## v1.0.0 — Initial Public Release
 
 ### Core
 
@@ -17,6 +8,9 @@
 - NativeActivity-based architecture with no Kotlin or Java application code.
 - Camera2 NDK and AImageReader camera pipeline.
 - Offline QR decoding using quirc.
+- Support for QR codes with rounded or stylized finder patterns, including some branded designs.
+- Bounded finder geometry fallback while preserving the normal fast scan path.
+- Regression coverage for rotated, blurred, and low-contrast stylized QR codes.
 - Arbitrary QR byte payload support.
 - QR result screen with copy and rescan actions.
 - Camera permission handling with direct App Settings fallback.

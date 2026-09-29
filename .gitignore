@@ -39,8 +39,3 @@ experimental/raw-build/out/
 *.pem
 *.key
 sign/
-
-# Private/deployment material excluded from this public copy
-/hosting/
-/doc/
-/aaaaaaaaa/

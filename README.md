@@ -1,5 +1,7 @@
 # TinyQR
 
+<a href="https://play.google.com/store/apps/details?id=com.xiao.tinyqr"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="180"></a>
+
 TinyQR is a small, fully offline QR scanner for Android. The application is written in C and runs through Android `NativeActivity`; it uses no Java or Kotlin application source, AndroidX, CameraX, Play Services, analytics, or network permission. The current build supports `arm64-v8a` devices running Android 7.0 (API 24) or later.
 
 The size challenge is to keep a practical scanner below 200 KB, with 100 KB as a stretch goal. See [BENCHMARK.md](BENCHMARK.md) for the initial release measurement and how to reproduce it.

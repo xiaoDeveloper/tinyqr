@@ -39,4 +39,4 @@ The decoder suite covers standard QR cases, rotation, mirroring, row stride, dam
 - [`tools/`](tools/) — APK size reporting and release measurement.
 - [`CHANGELOG.md`](CHANGELOG.md) — release history.
 
-quirc's ISC license and upstream details are preserved in [`app/src/main/c/third_party/quirc/`](app/src/main/c/third_party/quirc/), and its notice is packaged in [`THIRD_PARTY_NOTICES.txt`](app/src/main/assets/THIRD_PARTY_NOTICES.txt). TinyQR does not yet have a project-level open-source license; one must be selected before publishing it as licensed open source.
+TinyQR is licensed under the repository's existing [MIT license](LICENSE). quirc's ISC license and upstream details are preserved in [`app/src/main/c/third_party/quirc/`](app/src/main/c/third_party/quirc/), and its notice is packaged in [`THIRD_PARTY_NOTICES.txt`](app/src/main/assets/THIRD_PARTY_NOTICES.txt).
